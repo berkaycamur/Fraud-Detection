@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Data files (too large for git)
+*.csv
+*.parquet
+*.json
+*.pkl
+*.txt
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Keep small result files
+!anova_feature_ranking.csv
+!chi_square_ranking.csv
